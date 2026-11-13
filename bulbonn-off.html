@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Image - Bulb ON/OFF</title>
+</head>
+<body>
+   <h3>Light Bulb ON / OFF</h3>
+  <img id="myBulb" src="/home/user/Downloads/hadila11/web/bulb.jpeg" alt="Bulb" width="300">
+
+    <br><br>
+ <button onclick="turnOn()">Turn ON</button>
+ <button onclick="turnOff()">Turn OFF</button>
+<script>
+        function turnOn() {
+            document.getElementById('myBulb').src = "/home/user/Downloads/hadila11/web/bulb onn.jpeg";
+        }
+
+        function turnOff() {
+            document.getElementById('myBulb').src = "/home/user/Downloads/hadila11/web/bulb.jpeg";
+        }
+</script>
+
+</body>
+</html>
